@@ -25,6 +25,15 @@
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.10.0</version>
 			<scope>test</scope>
+
+			<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <configuration>
+        <mainClass>com.yourpackage.JtSpringProjectApplication</mainClass>
+    </configuration>
+</plugin>
+
 		</dependency>
 
 
